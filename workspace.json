@@ -1,5 +1,9 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "eshop-entity-eshop-entity": "libs/eshop/eshop-entity",
+    "eshop-eshop-repository": "libs/eshop/eshop-repository",
+    "eshop-usecases-eshop-usecases": "libs/eshop/eshop-usecases"
+  }
 }

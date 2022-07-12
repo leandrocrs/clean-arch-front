@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/eshop/eshop-usecases/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/eshop/eshop-usecases/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/eshop/eshop-usecases"],
+      "options": {
+        "jestConfig": "libs/eshop/eshop-usecases/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": ["eshop"]
+}

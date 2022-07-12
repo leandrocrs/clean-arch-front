@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@eshop/entity": ["libs/eshop/eshop-entity/src/index.ts"],
+      "@eshop/repository": ["libs/eshop/eshop-repository/src/index.ts"],
+      "@eshop/usecases": ["libs/eshop/eshop-usecases/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
