@@ -12,10 +12,12 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@nrwl/angular": "^14.4.2",
     "@nrwl/cli": "14.4.2",
     "@nrwl/eslint-plugin-nx": "14.4.2",
     "@nrwl/jest": "14.4.2",
     "@nrwl/linter": "14.4.2",
+    "@nrwl/react": "^14.4.2",
     "@nrwl/workspace": "14.4.2",
     "@types/jest": "27.4.1",
     "@types/node": "16.11.7",
